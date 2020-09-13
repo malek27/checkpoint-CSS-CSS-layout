@@ -1,0 +1,382 @@
+
+
+                                                                /*bare*/
+.bare {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    background-color: white;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 10%;
+    padding-top: 2%;  
+}
+
+.bare a{text-decoration: none;
+    color:#D3D3D3 ; 
+    padding: 0 .6em;}
+#col {
+    
+    color:#00b39b;
+}
+                                                               /*intro*/
+.intro{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 10%;
+    padding-top: 10%
+}
+.intro h1{
+    margin: 1em 0;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: .3px;
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+.intro  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.intro div p{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: .8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+    color: grey;
+    padding: 10px;
+}
+                                                            /*service*/
+.service{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    margin: 2% 10%; 
+    }
+.service div {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px 22px 0px;
+    margin: 1%;
+    font-family: Arial, Helvetica, sans-serif
+}
+     
+.service p{
+    color: honeydew; } 
+
+.option{
+    display: flex;
+    align-items: self-start;}
+
+.patients-services{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    background-color:#00b39b ;
+    overflow: hidden;}
+
+   .patients-services h6{
+    font-size: .875em;
+    font-weight: 400;
+    margin: 0;
+    color: hsla(0,0%,100%,.7);}
+
+   .patients-services p{
+font-size: 1.625em;
+    color: #fff;
+    margin-top: .3em; } 
+
+    .patients-services select{   
+        color: inherit;
+        font: inherit;
+        box-sizing: inherit;
+        border-radius: 4px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+   .patients-services img{
+    width:   100%; 
+    MARGIN: 0% -50% -2% 40%;
+   }
+
+.doctors-services{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    background-color: #3d83df;
+    overflow: hidden;
+}
+.doctors-services h6 {
+    font-size: .875em;
+    font-weight: 400;
+    margin: 0;
+    color: hsla(0,0%,100%,.7);
+}
+.doctors-services p {
+    font-size: 1.625em;
+    color: #fff;
+    margin-top: .3em;
+}
+.doctors-services img{
+    width:   100%; 
+    MARGIN: 7% 0% 0% 35%;
+}
+                                                      /*local-culture*/
+.local-culture {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2% 8% 2% 12%;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.local-culture h1{
+    color: #00b39b;
+    margin: 0%;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: .3px;
+}
+
+.local-culture ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;    
+    margin: 0% 16%;
+    padding: 0%;   
+}
+.local-culture li{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0% 2% ;
+    list-style: none ;
+    font-family:Helvetica Neue,Helvetica,Arial,sans-serif;    
+}
+
+.local-culture a svg{
+    fill:#c4c0c0;
+    font-size: 20%;
+    cursor: pointer 
+}
+
+                                                             /*blue*/  
+.blue {
+    background-color: #e5faf8;
+ background-size: 10em;
+ display: flex;
+ margin: 50px 0px 88px;
+ padding: 30px 0px 10px ;
+ overflow: hidden;
+} 
+.before-blocks{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 32px 0px 0px;
+    padding: 10px;
+} 
+
+.p-one img{
+    margin: 11% 0% -20% 10%;
+    width: 85%;
+}
+.p-one{
+    margin: 3% 0% 0% 0%;
+}
+.p-one h1{
+font-size: 2.125rem ;
+color: #00b39b;
+font-weight: 300;
+letter-spacing: .3px;
+margin: 0% 0% -1% 30%;
+}
+.p-one p{
+color: #747474;
+margin: 6% -12% 0% 31% ;
+max-width: 415px;
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.7142857143;
+}
+.blocks {
+    display: flex;
+    margin: -6% 6% 0% 0%;
+}
+
+.one{
+    padding: 13% 30% 0% 0%;
+}
+.flag {
+    text-align: center;
+    padding: 4% 3% 4% 3%;
+    margin: 2% 0% 10% 50%;
+    background-color: white;
+    font-size: 14px;
+}
+.patients {
+    text-align: center;
+    padding: 11% 5% 4% 5%;
+    margin: -1% 0% 14% 50%;
+    background-color: white;
+    font-size: 14px;
+}
+.two{
+    margin: 11% 16% 0% -27%;
+}
+.doctors{
+    text-align: center;
+    padding: 9% 21% 15% 13%;
+    margin: 0% -42% 20% 21%;
+    background-color: white;
+    font-size: 14px;
+}
+.visits{
+    text-align: center;
+    padding: 18% 2% 26% 7%;
+    margin: -5% -42% 15% 22%;
+    background-color: white;
+    font-size: 14px;
+}
+.blocks div h1{
+    color: #00b39b ;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin : 12px 0px
+}
+.blocks div p {
+    color: #747474;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.blocks div {
+    border-radius: 8px ;
+}
+
+
+
+
+
+
+
+      
+                                                         /*before-end*/
+.before-end{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    margin: 5% 15%;  
+
+}
+.before-end div{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+.before-end h1{
+    color:#00b39b;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: .3px;
+    font-size: 2.125rem;
+    margin: 0% 20%;
+}
+.before-end p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin: 0% 20%;
+    font-size:.875em;
+    padding: 1em;
+}
+                                                        /*contrie*/
+.contrie {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    flex-wrap: wrap;
+    margin: 2% 8%;   
+     
+}
+.contrie div{
+   margin: 1%;
+   cursor: pointer; 
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contrie p{
+    font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: gray; 
+    
+}
+
+
+.contrie img{
+    
+    border-radius: 5px;
+}
+.contrie p{
+    padding-bottom: 1% ;
+}
+button {
+   border-radius: 10px;
+   padding: 2px 20px;
+   height: 30px;
+   background-color: #3d83df;
+   color: white;
+   cursor: pointer;
+   margin-top: 4%;
+}
+.A{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5%;
+     }
+                                                              /*footer*/
+    .end{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    font-size: 10px;
+    color: #ababab;
+    text-align: center;
+    border-top: 1px solid #eef2f2;
+    }
+    .end p{  
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    }
+    .end ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style: none; 
+        padding-inline-start:10px   
+    }
+    .end a{
+        color:  #ababab;
+    }
+    
+ #ligne{
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+ }
+    .end ul p{
+        margin: 0% 0%;
+    }
+#right{
+    padding-left: 5px;
+}
+#left{
+    padding-right: 5px;
+}
+#ligne a {
+    color:#6495ED;
+    text-decoration: none;
+}
